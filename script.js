@@ -65,7 +65,7 @@ document.querySelectorAll(".card").forEach(Allcard => {
             alert(`📞 ${cardName} : ${emergencyNumber}`)
         }
         else {
-            alert("No")
+            alert(`❌ You Do Not Have Enough Coins 0`)
         }
         document.getElementById("clear-btn").addEventListener("click", function () {
             let container = document.getElementById("card-container");
